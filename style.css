@@ -1,0 +1,270 @@
+*{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1em;
+}
+.containter{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:space-around;
+}
+.toaster-red{
+	background: url('toaster.jpeg'), #CC0000;
+	height: 120vh;
+	width: 80%;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.toaster-darken{
+	margin: 30px auto 0;
+    position: relative;
+    display: block;
+    z-index: 2;
+    /*outline: 3px solid cyan;*/
+	background: url('toaster.jpeg'), #0CF0F3;
+	height: 600px;
+	width: 600px;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.toaster-darken:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 600px;
+	width: 600px;
+    z-index: 3;
+    background: url('toaster.jpeg'), #F31E0C;
+    background-blend-mode: lighten;
+    margin: 10px;
+    /*outline: 3px solid red;*/
+    background-size: cover;
+    mix-blend-mode: darken;
+  }
+  .toaster-darken-2{
+	margin: 30px auto 0;
+    position: relative;
+    display: block;
+    z-index: 2;
+    filter: saturate(.75);
+    /*outline: 3px solid cyan;*/
+	background: url('toaster.jpeg'), #0CF0F3;
+	height: 600px;
+	width: 600px;
+	perspective: 600px;
+	transform: rotateY(5deg);
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.toaster-darken-2:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 600px;
+	width: 600px;
+	perspective: -600px;
+	transform: rotateY(-2.5deg);
+    z-index: 3;
+    background: url('toaster.jpeg'), #F31E0C;
+    background-blend-mode: lighten;
+    margin-left: 10px;
+    /*outline: 3px solid red;*/
+    background-size: cover;
+    mix-blend-mode: darken;
+  }
+.toaster-purple-washout{
+	background: url('toaster.jpeg'), #B757EE;
+	height: 120vh;
+	width: 80%;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.honda-yellow{
+	background: url('honda.png'), #FFC433;
+	height: 80vh;
+	width: 80%;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.honda-drab-washout{
+	background: url('honda.png'), #A9B0A5;
+	height: 80vh;
+	width: 80%;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.honda-darken{
+	margin: 30px auto 0;
+    position: relative;
+    display: block;
+    z-index: 2;
+    /*outline: 3px solid cyan;*/
+	background: url('honda.png'), #0CF0F3;
+	height: 600px;
+	width: 600px;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.honda-darken:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 600px;
+	width: 600px;
+    z-index: 3;
+    background: url('honda.png'), #F31E0C;
+    background-blend-mode: lighten;
+    margin: 10px;
+    /*outline: 3px solid red;*/
+    background-size: cover;
+    mix-blend-mode: darken;
+  }
+.honda-inset{
+	background: url('honda.png'), #FF69B4;
+  	box-shadow: inset 0 0 100px black;
+	height: 80vh;
+	width: 80%;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.honda-inset-2{
+	position: relative;
+	background: url('honda.png');
+	height: 600px;
+	width: 600px;
+	display: block;
+	background-size: cover;
+}
+.honda-inset-2:after{
+	content: '';
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	background: radial-gradient(circle, transparent 60%, black 150%);
+	height: 600px;
+	width: 600px;
+	display: block;
+	background-size: cover;
+}
+.honda-inset-3{
+	position: relative;
+	background: url('honda.png'), #F06D06;
+	height: 600px;
+	width: 600px;
+	display: block;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+.honda-inset-3:after{
+	content: '';
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	background: radial-gradient(circle, transparent 60%, #F06D06 150%);
+	height: 600px;
+	width: 600px;
+	display: block;
+	background-size: cover;
+	mix-blend-mode: difference;
+}
+.toaster-star{
+	width:600px;
+	height: 600px;
+	display; block;
+	position: relative;
+	background-image: url('toaster.jpeg');
+	background-position: 50%;
+	background-size: cover;
+}
+.toaster-star:after{
+	content: '';
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    width:600px;
+	height: 600px;
+	background-image: url('star.jpg');
+	background-size: cover;
+	mix-blend-mode: screen;
+}
+.toaster-bubble{
+	width:600px;
+	height: 600px;
+	display; block;
+	position: relative;
+	background-image: url('toaster.jpeg');
+	background-position: 50%;
+	background-size: cover;
+}
+.toaster-bubble:after{
+	content: '';
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    width:600px;
+	height: 600px;
+	background-image: url('bubble.jpg');
+	background-size: cover;
+	mix-blend-mode: screen;
+}
+.toaster-bubble-2{
+	width:600px;
+	height: 600px;
+	display; block;
+	position: relative;
+	background-image: url('toaster.jpeg');
+	background-position: 50%;
+	background-size: cover;
+}
+.toaster-bubble-2:after{
+	content: '';
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    width:600px;
+	height: 600px;
+	background-image: url('bubble.jpg');
+	background-size: cover;
+	mix-blend-mode: multiply;
+}
+.toaster-lomo{
+	width: 606px;
+	height: 600px;
+	display; block;
+	position: relative;
+	background-image: url('toaster.jpeg');
+	-webkit-filter: blur(5px);
+	background-size: cover;
+}
+.toaster-lomo-2{
+	width: 606px;
+	height: 600px;
+	display; block;
+	position: relative;
+	background: url('toaster.jpeg'), radial-gradient(500px circle at 30% 10%, yellow, rgba(255,255,255,0)),
+  radial-gradient(300px circle at 80% 60%, #F06D06, rgba(255,255,255,0)); 
+	-webkit-filter: blur(5px);
+	background-size: cover;
+	background-blend-mode:overlay;
+}
+.toaster-lomo-3{
+	width: 606px;
+	height: 600px;
+	display; block;
+	position: relative;
+	background: url('toaster.jpeg'), radial-gradient(500px circle at 30% 10%, #F06D06, rgba(255,255,255,0)),
+  radial-gradient(300px circle at 80% 60%, #FFC433, rgba(255,255,255,0)); 
+	-webkit-filter: blur(1px) saturate(0.5);
+	z-index: 2;
+	background-size: cover;
+	background-blend-mode: overlay;
+}
+.toaster-lomo-3:after{
+	content: '';
+	width: 606px;
+	height: 600px;
+	display; block;
+	position: absolute;
+	z-index: 10;
+	background: url('honda.png'), #FFC433;
+	background-size: cover;
+	background-blend-mode:lighten;
+	mix-blend-mode: lighten;
+}
